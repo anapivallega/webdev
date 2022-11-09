@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body{
+    background-color: black;
+    color: white;
+  }
+  button{
+    width: 10%;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 2rem;
+    background-color: #b41f0b;
+    border: 2px solid white;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease;
+    font-weight: bold;
+  }
+  .delete-button{
+    width: 2%;
+  }
+
+  .add-button{
+    
+  }
+</style>
+<body>
+    <div class="outer-container">
+
+      <div class="Task1" style="float: left; width:50%;">
+
+        <h3>Task 1</h3>
+        <p id="userId"></p>
+        <p id="id"></p>
+        <p id="title"></p>
+        <p id="completed"></p>
+
+        <h3>Task 2</h3>
+        <p id="userId1"></p> 
+        <p id="id1"></p> 
+        <p id="title1"></p>
+        <p id="completed1"></p>
+
+        <h3>Task 3</h3>
+        <p id="userId2"></p> 
+        <p id="id2"></p> 
+        <p id="title2"></p>
+        <p id="completed2"></p>
+
+        
+        <h3>Task 4</h3>
+        <p id="userId3"></p> 
+        <p id="id3"></p> 
+        <p id="title3"></p>
+        <p id="completed3"></p>
+
+         
+        <h3>Task 5</h3>
+        <p id="userId4"></p> 
+        <p id="id4"></p> 
+        <p id="title4"></p>
+        <p id="completed4"></p>
+
+      </div>
+        
+      <div style="float: right; width:50%;" class="Task2">
+
+        <h3>Task 6</h3>
+        <p id="userId5"></p> 
+        <p id="id5"></p> 
+        <p id="title5"></p>
+        <p id="completed5"></p>
+
+        <h3>Task 7</h3>
+        <p id="userId6"></p> 
+        <p id="id6"></p> 
+        <p id="title6"></p>
+        <p id="completed6"></p>
+
+        <h3>Task 8</h3>
+        <p id="userId7"></p> 
+        <p id="id7"></p> 
+        <p id="title7"></p>
+        <p id="completed7"></p>
+
+        <h3>Task 9</h3>                 
+        <p id="userId8"></p> 
+        <p id="id8"></p> 
+        <p id="title8"></p>
+        <p id="completed8"></p>
+
+        <h3>Task 10</h3>                 
+        <p id="userId9"></p> 
+        <p id="id9"></p> 
+        <p id="title9"></p>
+        <p id="completed9"></p>
+
+
+      </div>
+      <center>
+        <div class="btn">
+          <button type="submit" class="add-button" id="generate">Generate new TASK</button>
+        </div>
+      </center>
+        
+        
+      </div>
+
+      <center>
+      <div class="container">
+        <h1>Todo</h1>
+    <form class="todo-form">
+          <input type="text" class="todo-input" placeholder="Add a Todo...">
+          <button type="submit" class="add-button">Add</button>
+        </form>
+    <ul class="todo-items">
+        
+          <li class="item" data-key="1594003133171">
+            <input class="checkbox" type="checkbox">
+            Go to Gym
+            <button class="delete-button">X</button>
+          </li>
+        </ul>
+      </div>
+    </center>
+
+
+      
+
+    <script src="./json.js"></script>
+</body>
+</html>

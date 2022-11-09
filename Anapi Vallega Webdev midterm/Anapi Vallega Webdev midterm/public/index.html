@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script2.js"></script>
+
+    <title> Midterm Form Validation </title>
+</head>
+
+<body>
+    <div class="form-sign-up">
+        <h1 class="header">Registration Form</h1>
+        <form action="" class="app-form">
+            <div class=" form-mem main-form">
+                <div class="label-icon input-1 fade-obj">
+
+                </div>
+                <input style="color: black;" type="text" name="name" id="fn" placeholder="FullName" autocomplete="off">
+                <div class="toolip">Name must include Surname and FirstName</div>
+            </div>
+
+            <div class="form-mem main-form">
+                <div class="label-icon fade-obj">
+
+                </div>
+                <input style="color: black;" type="email" name="email" id="" placeholder="Email" autocomplete="off">
+                <div class="toolip">Must be a valid email address</div>
+            </div>
+
+
+
+            <div class="form-mem main-form wrap-pass">
+
+                <div class="label-icon fade-obj">
+
+                </div>
+                <input style="color: black;" type="password" name="name" id="password" class="password"
+                    placeholder="Password" autocomplete="off" required>
+
+                <div class="toolip">Password must be atleast 8 Cap & Low Letter, symbol & number</div>
+            </div>
+
+
+            <div class="form-mem main-form">
+                <div class="label-icon fade-obj">
+
+                </div>
+                <input style="color: black;" type="tel" name="name" id="" placeholder="Phone Number" autocomplete="off">
+                <div class="toolip">Enter Valid phone phone number with country code</div>
+            </div>
+
+            <div class="form-mem main-form">
+                <input style="color: black;" type="text" id="txtDate" name="da   te" onblur="ValidateDOB()"
+                    autocomplete="off" placeholder="Birthdate" />
+                <div><span class="error" id="lblError"></span></div>
+            </div>
+
+            <div id="gender-sect" class="form-mem">
+                <label class="gender-main" for="">Male
+                    <input type="radio" name="gender" class="male"></label>
+                <label class="gender-main" for="">Female
+                    <input type="radio" name="gender" class="female"></label>
+            </div>
+            <button class="btn" onclick="submit(e)">Create Account</button>
+
+
+    </div>
+    </form>
+    </div>
+    </form>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
