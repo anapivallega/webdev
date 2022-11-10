@@ -1,0 +1,71 @@
+.img {
+    margin-top: 10mm;
+    margin-left: -10mm;
+} 
+
+.img2 {
+    margin-top: -5mm;
+}
+
+.history {
+    text-align: justify;
+    background-color: lightpink;
+    width: 85%;
+    margin-left: 8%;
+    padding: 2px;
+    border: 2px solid chocolate;
+    cursor: pointer;
+    
+}
+.history:hover{
+    border: 2px double cornflowerblue;
+}
+
+.color-overlay {
+    background-color: lightpink;
+    padding: 2px;
+    width: 85%;
+    margin-left: 8%;    
+    border: 2px solid chocolate;
+    cursor: pointer;
+
+}
+.color-overlay:hover{
+    border: 2px double cornflowerblue;
+}
+
+
+.barangay {
+margin-left: 30%;
+width: 50%;
+}
+
+
+
+.brgy {
+    margin-top: -50mm;
+    float: right;
+    width: 50%;
+    margin-right : -10%;
+  
+
+}
+.img3{
+    width: 50%;
+}
+
+.mayor{
+    margin-left: 40%;
+    margin-top: -105mm;
+    border: 2px solid chocolate;
+    cursor: pointer;
+    background-color: lightpink;
+    padding: 2px;
+    width: 60%;
+    font-size: 5mm;
+    text-align: justify;
+}
+
+.mayor:hover{
+    border: 2px double cornflowerblue;
+}
